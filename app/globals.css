@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'BabeSans';
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+		src: url(/fonts/BabeSans.otf) format('truetype');
+	}
+}
+
+.custom-font {
+	font-family: 'BabeSans', sans-serif;
+}
